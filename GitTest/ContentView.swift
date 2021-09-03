@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var text = "123456789"
     var body: some View {
         VStack {
             Text("Title")
                 .font(.largeTitle)
                 .bold()
-            Text("Hello, world!")
+            Text(String(text.reversed()))
             Text("version 1.0")
                 .font(.subheadline)
                 .fontWeight(.light)
