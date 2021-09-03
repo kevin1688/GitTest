@@ -11,6 +11,7 @@
 		0AF1B9CD26E1B9F700EE2FFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1B9CC26E1B9F700EE2FFA /* ContentView.swift */; };
 		0AF1B9CF26E1B9FB00EE2FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF1B9CE26E1B9FB00EE2FFA /* Assets.xcassets */; };
 		0AF1B9D226E1B9FB00EE2FFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF1B9D126E1B9FB00EE2FFA /* Preview Assets.xcassets */; };
+		0AF1B9DC26E1C2B000EE2FFA /* NewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1B9DB26E1C2B000EE2FFA /* NewButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		0AF1B9CE26E1B9FB00EE2FFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AF1B9D126E1B9FB00EE2FFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0AF1B9D326E1B9FB00EE2FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF1B9DB26E1C2B000EE2FFA /* NewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				0AF1B9CA26E1B9F700EE2FFA /* GitTestApp.swift */,
 				0AF1B9CC26E1B9F700EE2FFA /* ContentView.swift */,
+				0AF1B9DB26E1C2B000EE2FFA /* NewButton.swift */,
 				0AF1B9CE26E1B9FB00EE2FFA /* Assets.xcassets */,
 				0AF1B9D326E1B9FB00EE2FFA /* Info.plist */,
 				0AF1B9D026E1B9FB00EE2FFA /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF1B9DC26E1C2B000EE2FFA /* NewButton.swift in Sources */,
 				0AF1B9CD26E1B9F700EE2FFA /* ContentView.swift in Sources */,
 				0AF1B9CB26E1B9F700EE2FFA /* GitTestApp.swift in Sources */,
 			);

@@ -14,6 +14,9 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .bold()
             Text("Hello, world!")
+            Text("version 1.0")
+                .font(.subheadline)
+                .fontWeight(.light)
         }
         .padding()
     }
